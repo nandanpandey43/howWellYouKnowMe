@@ -1,7 +1,7 @@
 var readLineSync = require("readline-sync");
 
 var score = 0;
-var userName = readLineSync.question("what's your name?\n");
+var userName = readLineSync.question("What's your name?\n");
 console.log("\nHi, "+userName.toUpperCase());
 console.log("Let's play a game to see how well you know me!\n\n");
 
